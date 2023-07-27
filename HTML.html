@@ -2,63 +2,68 @@
 <html lang="en"> <!-- This is you tell to google you use that language  -->
 
 <head>
-    <meta charset="UTF-8">
-    <!-- This is used to add all character iclude rupee symbols and almost all charactor -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This is use for responsive UI -->
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <!-- For IE Browser Support This meta tag is use -->
-    <meta name="description" content="Lorem ipsum dolor sit amet.">
-    <!-- This is a descripition which is show in google -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- use For Edge browser support -->
-    <meta name="keywords" content="full stack developer">
-    <!-- This is normally like instagram hashtag if someone search full stack developer than user get my content -->
-    <title>My Portfolio</title>
-    <!-- This is Website Title -->
+  <meta charset="UTF-8">
+  <!-- This is used to add all character iclude rupee symbols and almost all charactor -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- This is use for responsive UI -->
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <!-- For IE Browser Support This meta tag is use -->
+  <meta name="description" content="Lorem ipsum dolor sit amet.">
+  <!-- This is a descripition which is show in google -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- use For Edge browser support -->
+  <meta name="keywords" content="full stack developer">
+  <!-- This is normally like instagram hashtag if someone search full stack developer than user get my content -->
+  <title>My Portfolio</title>
+  <!-- This is Website Title -->
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="fevicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="fevicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="fevicon/favicon-16x16.png">
-    <link rel="manifest" href="fevicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <!-- This is a favicon and this is a use for set icon in website  -->
-    <!-- This is now no working because svg favicon working for run this favicon comment below svg favicon code -->
+  <link rel="apple-touch-icon" sizes="180x180" href="fevicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fevicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fevicon/favicon-16x16.png">
+  <link rel="manifest" href="fevicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- This is a favicon and this is a use for set icon in website  -->
+  <!-- This is now no working because svg favicon working for run this favicon comment below svg favicon code -->
 
-    <link rel="icon" href="fevicon/new.svg" type="image/svg+xml">
-    <!-- This is a svg favicon type link:fevicon and set href and done. -->
-
-
-
-    <!-- og TAG -->
-    <meta property="og:title" content="My Portfolio" />
-    <meta property="og:descripition" content=" adipisicing elit. Cum, at." />
-    <meta property="og:type" content="Profile" />
-    <meta property="profile:first_name" content="Savan" />
-    <meta property="profile:last_name" content="Prajapati" />
-    <meta property="profile:username" content="SavanPrajapati" />
-    <meta property="profile:gender" content="Male" />
-    <meta property="og:image" content="https://lh3.googleusercontent.com/a/AAcHTtff8DTqY1j7Xgdqe0Editv7dkiSZPYQMgc8I99CN8yi6Y8=s360-c-no" />
-    <meta property="og:url" content="https://www.linkedin.com/in/savan-prajapati-0aa595282/" />
-    
+  <link rel="icon" href="fevicon/new.svg" type="image/svg+xml">
+  <!-- This is a svg favicon type link:fevicon and set href and done. -->
 
 
 
+  <!-- og TAG -->
+  <meta property="og:title" content="My Portfolio" />
+  <meta property="og:descripition" content="Lorem elit. Cum, at." />
+  <meta property="og:type" content="Profile" />
+  <meta property="profile:first_name" content="Savan" />
+  <meta property="profile:last_name" content="Prajapati" />
+  <meta property="profile:username" content="SavanPrajapati" />
+  <meta property="profile:gender" content="Male" />
+  <meta property="og:image"
+    content="https://lh3.googleusercontent.com/a/AAcHTtff8DTqY1j7Xgdqe0Editv7dkiSZPYQMgc8I99CN8yi6Y8=s360-c-no" />
+  <meta property="og:url" content="https://www.linkedin.com/in/savan-prajapati-0aa595282/" />
 
 
-        <!-- twitter card -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@nytimesbits" />
-        <meta name="twitter:creator" content="@nickbilton" />
 
 
-    
 
 
-    <!-- JSON LD -->
-    <script type="application/ld+json">
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- If you want to share large image in twitter type summary_lage_image and if you want small image type only summary in content-->
+  <meta name="twitter:title" content="Portfolio">
+  <meta name="twitter:description" content="Hello, My Name is Savan And this is my Portfolio">
+  <meta name="twitter:image"
+    content="https://lh3.googleusercontent.com/a/AAcHTtff8DTqY1j7Xgdqe0Editv7dkiSZPYQMgc8I99CN8yi6Y8=s360-c-no">
+
+
+
+
+
+
+  <!-- JSON LD -->
+  <script type="application/ld+json">
         {
           "@context": "https://schema.org/",
           "@type": "Profile",
@@ -78,9 +83,119 @@
 </head>
 
 <body>
-    <h1>
-        Hello
-    </h1>
+
+
+
+
+  <form oninput="result.value=age.value">
+
+
+
+
+    <div>
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" placeholder="Please enter First name" autocomplete="given-name" required>
+    </div>
+
+    <div>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" placeholder="Please enter Last name" autocomplete="family-name" required>
+    </div>
+
+    <div>
+      <label for="mobileNumber">Mobile Number</label>
+      <input type="tel" id="mobileNumber" placeholder="Please enter mobile number" autocomplete="tel" required>
+    </div>
+
+    <div>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Please enter email Address" autocomplete="email" required>
+    </div>
+
+    <div>
+      <label for="collage">Collage</label>
+      <input type="text" list="list" id="collage" required placeholder="Select or add your Collage" size="22">
+
+      <datalist id="list">
+        <option>LDRP</option>
+        <option>Silver Oak</option>
+        <option>Ganpat University</option>
+        <option>SK University</option>
+        <option>Nirma University</option>
+        <option>Insus University</option>
+
+      </datalist>
+
+    </div>
+
+    <div>
+      <label for="massage"></label>
+      <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Please enter massage"></textarea>
+    </div>
+
+    <div>
+      <label for="profile">profile</label>
+      <input type="file" id="profile" accept="image/*">
+    </div>
+
+    <meter min="1" max="100" value="26"></meter>
+    <meter low="50" high="80" max="100" value="100"></meter>
+    <meter min="1" max="100" value="26"></meter>
+
+    <progress></progress>
+    <div>
+      <input type="range" id="age" min="10" max="100" value="0">
+      <output for="age" name="result">0</output>
+    </div>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <!-- When you use list type item then always use ul>li  for accessebility -->
+  <ul>
+    <!-- if you want to see banner in new tab than add target=_blank in anchor tag-->
+
+    <!-- target=_parent,_self,_top this three target is a same 
+        only target=_blank is different  in _blank content open in new tab-->
+    <li>
+      <a href="#banner" target="_blank">Banner</a>
+    </li>
+    <li>
+      <a href="#about" target="_parent">About</a>
+    </li>
+    <li>
+      <a href="#blogs" target="_self">Blogs</a>
+    </li>
+    <li>
+      <a href="#project" target="_top">Project</a>
+    </li>
+    <li>
+
+      <a href="#contact" target="_top">Contact</a>
+    </li>
+
+    <!-- If you want to add external website in your web than you use 
+  compulasury use target="_blank" bcoz if you not use this than external link break your visit time -->
+    <li><a href="https://www.google.com" target="_blank">google</a></li>
+  </ul>
+
+  <div id="banner">
+    <h1>BANNER</h1>
+  </div>
+  <div id="about">
+    <h1>ABOUT</h1>
+  </div>
+  <div id="blogs">
+    <h1>BLOGS</h1>
+  </div>
+  <div id="project">
+    <h1>PROJECTS</h1>
+  </div>
+  <div id="contact">
+    <h1>CONTACT</h1>
+  </div>
+
 </body>
 
 </html>
